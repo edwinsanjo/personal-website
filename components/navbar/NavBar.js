@@ -8,11 +8,11 @@ export default function NavBar() {
                 <a href="/" className='text-lg font-bold text-white'>Edwin Sanjo Soji</a>
             </div>
             <div className='hidden lg:block'>
-                <ul class="text-white md:flex space-x-7">
-                    <li class="font-semibold font-sm"><a href="">Home</a></li>
-                    <li class="font-semibold font-sm"><a href="">About</a></li>
-                    <li class="font-semibold font-sm"><a href="#Projects">Projects</a></li>
-                    <li class="font-semibold font-sm"><a href="">Contact</a></li>
+                <ul className="text-white md:flex space-x-7">
+                    <li className="font-semibold font-sm"><a href="">Home</a></li>
+                    <li className="font-semibold font-sm"><a href="">About</a></li>
+                    <li className="font-semibold font-sm"><a href=''>Projects</a></li>
+                    <li className="font-semibold font-sm"><a href="">Contact</a></li>
                 </ul>
             </div>
         </nav >

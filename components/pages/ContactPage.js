@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import image from '../../public/contact.svg'
+import Link from 'next/link'
 import { FaInstagram, FaGithub, FaSpotify, FaDiscord, FaCodepen, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
@@ -22,24 +21,24 @@ export default function Home() {
                         <p className='text-white mb-2'>Connect me on social</p>
                         <div className='grid grid-cols-6 gap-4 place-items-center'>
 
-                            <a href='https://discord.com/users/763978445847658527' className='text-white'>
+                            <Link href='https://discord.com/users/763978445847658527' className='text-white'>
                                 <FaDiscord className='w-7 h-7' />
-                            </a>
-                            <a href='https://github.com/edwinsanjo' className='text-white'>
+                            </Link>
+                            <Link href='https://github.com/edwinsanjo' className='text-white'>
                                 <FaGithub className='w-7 h-7' />
-                            </a>
-                            <a href='https://open.spotify.com/user/o85ngdvgkddg8jxv6xijsberc' className='text-white'>
+                            </Link>
+                            <Link href='https://open.spotify.com/user/o85ngdvgkddg8jxv6xijsberc' className='text-white'>
                                 <FaSpotify className='w-7 h-7' />
-                            </a>
-                            <a href='https://www.instagram.com/edwinsanjo/' className='text-white'>
+                            </Link>
+                            <Link href='https://www.instagram.com/edwinsanjo/' className='text-white'>
                                 <FaInstagram className='w-7 h-7' />
-                            </a>
-                            <a href='https://twitter.com/edwinSanjo/' className='text-white'>
+                            </Link>
+                            <Link href='https://twitter.com/edwinSanjo/' className='text-white'>
                                 <FaTwitter className='w-7 h-7' />
-                            </a>
-                            <a href='https://codepen.io/edwinsanjo' className='text-white'>
+                            </Link>
+                            <Link href='https://codepen.io/edwinsanjo' className='text-white'>
                                 <FaCodepen className='w-7 h-7' />
-                            </a>
+                            </Link>
 
 
                         </div>

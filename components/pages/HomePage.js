@@ -26,7 +26,7 @@ export default function HomePage() {
 
             <div className='lg:hidden flex h-screen w-screen items-center justify-center'>
                 <div className='relative'>
-                    <Image className='opacity-30 bottom-1' src={image} />
+                    <Image alt='image of a computer' className='opacity-30 bottom-1' src={image} />
                     <div className='absolute top-[50%] left-0 right-0 bottom-0'>
                         <p className='text-lg text-center text-white'>Hello There</p>
                         <p className='text-3xl text-center text-white'>I am <span className='font-[500]'>Edwin Sanjo Soji</span></p>
@@ -42,7 +42,7 @@ export default function HomePage() {
                     <p className='text-2xl text-white'>I am a {Hobby}</p>
                 </div>
                 <div className='lg:p-10'>
-                    <Image className='' src={image} />
+                    <Image className='' alt='image of a computer' src={image} />
                 </div>
             </div>
 
