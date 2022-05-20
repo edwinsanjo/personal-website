@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import image from '../../public/Computer.svg';
+import Link from 'next/link'
 
 
 export default function ProjectsPage() {
