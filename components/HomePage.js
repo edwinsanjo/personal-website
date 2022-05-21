@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import image from '../../public/Computer.svg';
+import image from '../public/Computer.svg';
 import { useCallback, useEffect, useState } from 'react';
-import NavBar from '../navbar/NavBar';
+import Link from 'next/link'
 
 const hobbys = ['Programmer', 'Video Editor', "Designer", "Gamer", "Music Lover", "Web Developer"]
 
@@ -22,7 +22,19 @@ export default function HomePage() {
     return (
         <div className='overflow-y-hidden'>
 
-            <NavBar />
+            <nav className='flex items-center justify-center lg:justify-between pt-4  lg:px-32 lg:py-6'>
+                <div className=''>
+                    <Link href="/" className='text-lg font-bold text-white'>Edwin Sanjo Soji</Link>
+                </div>
+                <div className='hidden lg:block'>
+                    <ul className="text-white md:flex space-x-7">
+                        <li className="font-semibold font-sm"><Link href="">Home</Link></li>
+                        <li className="font-semibold font-sm"><Link href="">About</Link></li>
+                        <li className="font-semibold font-sm"><Link href=''>Projects</Link></li>
+                        <li className="font-semibold font-sm"><Link href="">Contact</Link></li>
+                    </ul>
+                </div>
+            </nav >
 
             <div className='lg:hidden flex h-screen w-screen items-center justify-center'>
                 <div className='relative'>

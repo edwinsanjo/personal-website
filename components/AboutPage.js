@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import image from '../../public/man-coding.svg'
+import image from '../public/man-coding.svg'
 
 
 export default function HomePage() {

@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import HomePage from '../components/pages/HomePage'
-import AboutPage from '../components/pages/AboutPage'
-import ProjectsPage from '../components/pages/ProjectsPage'
-import ContactPage from '../components/pages/ContactPage'
+import HomePage from '../components/HomePage'
+import AboutPage from '../components/AboutPage'
+import ProjectsPage from '../components/ProjectsPage'
+import ContactPage from '../components/ContactPage'
 
 
 export default function Home() {
