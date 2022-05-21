@@ -24,7 +24,7 @@ export default function HomePage() {
 
             <nav className='flex items-center justify-center lg:justify-between pt-4  lg:px-32 lg:py-6'>
                 <div className=''>
-                    <Link href="/" className='text-lg font-bold text-white'>Edwin Sanjo Soji</Link>
+                    <Link href="/"><p className='text-lg font-bold text-gray-50'>Edwin Sanjo Soji</p></Link>
                 </div>
                 <div className='hidden lg:block'>
                     <ul className="text-white md:flex space-x-7">
@@ -58,6 +58,6 @@ export default function HomePage() {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }

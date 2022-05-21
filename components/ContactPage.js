@@ -7,10 +7,7 @@ export default function Home() {
             <h2 className='text-white font-bold text-4xl text-center pb-10 pt-10'>Contact Me</h2>
             <div className='flex items-center justify-center'>
 
-                <div className='flex items-center flex-col lg:flex-row gap-32 justify-center'>
-                    {/* <div className='hidden lg:block'>
-                        <Image className='opacity-30' src={image} />
-                    </div> */}
+                <div className='flex items-center flex-col lg:flex-row gap-64 justify-center'>
                     <div>
                         <h3 className='text-xl text-white font-semibold mb-2'>Newsletter</h3>
                         <p className='text-white mb-2'>Subscribe to my newsletter </p>
@@ -21,23 +18,23 @@ export default function Home() {
                         <p className='text-white mb-2'>Connect me on social</p>
                         <div className='grid grid-cols-6 gap-4 place-items-center'>
 
-                            <Link href='https://discord.com/users/763978445847658527' className='text-white'>
-                                <FaDiscord className='w-7 h-7' />
+                            <Link href='https://discord.com/users/763978445847658527' >
+                                <FaDiscord className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
-                            <Link href='https://github.com/edwinsanjo' className='text-white'>
-                                <FaGithub className='w-7 h-7' />
+                            <Link href='https://github.com/edwinsanjo'>
+                                <FaGithub className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
-                            <Link href='https://open.spotify.com/user/o85ngdvgkddg8jxv6xijsberc' className='text-white'>
-                                <FaSpotify className='w-7 h-7' />
+                            <Link href='https://open.spotify.com/user/o85ngdvgkddg8jxv6xijsberc'>
+                                <FaSpotify className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
-                            <Link href='https://www.instagram.com/edwinsanjo/' className='text-white'>
-                                <FaInstagram className='w-7 h-7' />
+                            <Link href='https://www.instagram.com/edwinsanjo/'>
+                                <FaInstagram className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
-                            <Link href='https://twitter.com/edwinSanjo/' className='text-white'>
-                                <FaTwitter className='w-7 h-7' />
+                            <Link href='https://twitter.com/edwinSanjo/'>
+                                <FaTwitter className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
-                            <Link href='https://codepen.io/edwinsanjo' className='text-white'>
-                                <FaCodepen className='w-7 h-7' />
+                            <Link href='https://codepen.io/edwinsanjo'>
+                                <FaCodepen className='w-7 h-7 text-white cursor-pointer' />
                             </Link>
 
 
